@@ -12,9 +12,9 @@
 
 ## What is Fair CV?
 
-**Fair CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** which is easy to customize , especially since it is really written by a clean, semantic markup.
+**Fair CV** is a LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** which is easy to customize , especially since it is really written by a clean, semantic markup.
 
-* [**Edit your own Résumé on OverLeaf.com**](https://www.overleaf.com/2246287795nmntzscknkhd)
+* [**Edit your own Résumé on OverLeaf.com for free**](https://www.overleaf.com/2246287795nmntzscknkhd)
 
 ## Preview
 
