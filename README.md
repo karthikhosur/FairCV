@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/karthikhosur/FairCV" title="FairCV Documentation">
-    <img alt="FairCV" src="https://github.com/karthikhosur/FairCV/blob/main/faircvlogo.png" width="200px" height="200px" />
+    <img alt="FairCV" src="https://github.com/karthikhosur/FairCV/blob/main/faircvlogo.png" width="400px" height="400px" />
   </a>
   <br />
   Fair CV
@@ -22,8 +22,8 @@
 
 You can see [PDF](https://github.com/karthikhosur/FairCV/blob/main/resume.pdf)
 
-| Page. 1 | Page. 2 |
-|:---:|:---:|
+| Page. 1 |
+|:---:|
 | [![Résumé](https://github.com/karthikhosur/FairCV/blob/main/resume.png)](https://github.com/karthikhosur/FairCV/blob/main/resume.pdf)  |
 
 
