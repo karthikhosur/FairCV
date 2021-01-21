@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Author : Karthik Hosur
+% Based off of: https://github.com/karthikhosur/ 
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Karthik Hosur} \\ \vspace{1pt}
+    \small +91 9611131081$|$ \href{mailto:x@x.com}{\underline{karthikhosur15@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/karthikhosur}} $|$
+    \href{https://github.com/...}{\underline{github.com/karthikhosur}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Visvesvaraya Technological University}{Bangalore, India}
+      {Bachelor of Engineering in Computer Science \& Engineering}{Aug. 2016 -- Aug 2020}
+   % \resumeSubheading
+      %{Blinn College}{Bryan, TX}
+      %{Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+     {Software Engineer- Full Stack \& AI}{July 2020 -- Present}
+      {TalentMicro Innovations Pvt. Ltd.}{Bangalore, TX}
+      \resumeItemListStart
+        \resumeItem{Developed a Resume Parser and a Resume ranking tool using Natural Language Processing and Deep Learning}
+    
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineering Intern}{Feb. 2018 -- June 2020}
+      {HireCraft Software Pvt. Ltd.}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Worked on a Big Five factor personality detection mobile application to classify candidates based on personality for recruitment. }
+        
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Intern}{July 2019 -- Sep. 2019}
+      {Incarnus Technologies India Pvt. Ltd.}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Designed and integrated chatbot to ArcusAir, a Hospital Management System to help the users like Doctors, Technicians, and Nurses to retrieve knowledge base using natural language input by voice or text.}
+        
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Personality Evaluation using Sentiment Analysis} $|$ \emph{Python, Swift, Docker}}{}
+          \resumeItemListStart
+            \resumeItem{An iOS App to Classify the candidates text corpus based on different traits using Big Five Personality Evaluation}
+            \resumeItem{The system replaces the traditional process of using a questionnaire to evaluate the candidates personality}
+           \resumeItem{Application has been integrated into the HR system at HireCraft Software Pvt. Ltd.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Automatic Indian Number Plate Recognition System} $|$ \emph{Python, Flask, OpenCV, Angular}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a CNN algorithm and trained it with Indian Number Plates to be recognized with a success rate of 86\%(The best publicly available model for Indian Number Plates)}
+            \resumeItem{The application developed as an Angular Web App received appreciation from National Informatics Centre, Government of India}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PATENTS&PUBLICATION-----------
+\section{Patents & Publications}
+    \resumeSubHeadingListStart
+          \resumeItemListStart
+            \resumeItem{Patent filed on "A system and a method for exchanging information over chat system through structured forms(WO2018011653A1)"}
+            \resumeItem{Patent filed on "A system and method for storing and securely sharing of information through an unique id(WO2016103109A1)"}
+            \resumeItem{Research Paper on “Agriculture Crop Cost Prediction using Artificial Neural Networks“, International Journal of Advance Research, Ideas and Innovations in Technology, August 2018}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------Awards-----------
+\section{Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{CMR Leadership Award 2020}{, awarded to a distinguished graduating student for excellence in academics, behaviour and extracurricular activities} 
+    }}
+ \end{itemize}
+ 
+ %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C++, Swift, SQL, JavaScript, HTML/CSS, G} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, Angular, Django} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+%-----------Extracurricular Activities -----------
+\section{Extracurricular Activities }
+\small  \resumeItemListStart
+            \resumeItem{Licensee and Lead Organizer at TEDxCMRIT }
+            \resumeItem{Web developer of TEDxMarathahalli, 2018}
+            \resumeItem{Organizer of “Hack-It-On” hackathon}
+            \resumeItem{College representative for the Entrepreneurship Cell, IIT Bombay, 2017-18}
+\resumeItemListEnd
+
+
+%-------------------------------------------
+\end{document}
